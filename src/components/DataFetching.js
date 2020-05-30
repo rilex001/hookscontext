@@ -14,7 +14,7 @@ const  DataFetching = () => {
         .catch(err => {
             console.log(err)
         })
-    }, [id])
+    }, [idFromButtonClick])
 
     const handleClick = () => {
         setIdFromButtonClick(id)
