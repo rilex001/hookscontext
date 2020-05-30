@@ -11,6 +11,7 @@ function HookCounterArray() {
     return (
         <div>
         <button onClick={addItem}>Add a number</button>
+        <button onClick={() => setItems([])}>Refresh</button>
           <ul>
               {
                   items.map(
