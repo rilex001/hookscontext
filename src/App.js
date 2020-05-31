@@ -4,7 +4,9 @@ import { HookCounter } from './components/HookCounter'
 import { HookCounterObject } from './components/HookCounterObject'
 import HookCounterArray from './components/HookCounterArray'
 import HookCounterOne from './components/HookCounterOne'
-import HookMouse from './components/HookMouse'
+// import HookMouse from './components/HookMouse'
+import MouseContainer from './components/MouseContainer'
+import IntervalHookCounter from './components/IntervalHookCounter'
 
 const App = () => {
   return (
@@ -18,7 +20,10 @@ const App = () => {
       <br></br>
       <HookCounterOne />
       <br></br>
-      <HookMouse />
+      {/* <HookMouse /> */}
+      <MouseContainer />
+      <br></br>
+      <IntervalHookCounter />
     </>
 
   )
