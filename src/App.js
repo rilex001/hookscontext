@@ -8,6 +8,8 @@ import HookCounterOne from './components/HookCounterOne'
 import MouseContainer from './components/MouseContainer'
 import IntervalHookCounter from './components/IntervalHookCounter'
 import CounterOne from './useReducerComponents/CounterOne'
+import CounterTwo from './useReducerComponents/CounterTwo'
+import CounterThree from './useReducerComponents/CounterThree'
 
 const App = () => {
   return (
@@ -29,7 +31,9 @@ const App = () => {
       <IntervalHookCounter /> */}
 
 
-      <CounterOne />
+      {/* <CounterOne /> */}
+      {/* <CounterTwo /> */}
+      <CounterThree />
     </>
 
   )
