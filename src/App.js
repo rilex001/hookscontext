@@ -1,5 +1,6 @@
 import React from 'react'
-import DataFetchingOne from './useReducerFetching/DataFetchingOne'
+// import DataFetchingOne from './useReducerFetching/DataFetchingOne'
+import DataFetchingTwo from './useReducerFetching/DataFetchingTwo'
 // import DataFetching from './components/DataFetching'
 // import { HookCounter } from './components/HookCounter'
 // import { HookCounterObject } from './components/HookCounterObject'
@@ -36,7 +37,8 @@ const App = () => {
       {/* <CounterTwo /> */}
       {/* <CounterThree /> */}
 
-      <DataFetchingOne />
+      {/* <DataFetchingOne /> */}
+      <DataFetchingTwo />
     </>
 
   )
