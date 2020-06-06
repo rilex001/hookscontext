@@ -1,15 +1,16 @@
 import React from 'react'
-import DataFetching from './components/DataFetching'
-import { HookCounter } from './components/HookCounter'
-import { HookCounterObject } from './components/HookCounterObject'
-import HookCounterArray from './components/HookCounterArray'
-import HookCounterOne from './components/HookCounterOne'
+import DataFetchingOne from './useReducerFetching/DataFetchingOne'
+// import DataFetching from './components/DataFetching'
+// import { HookCounter } from './components/HookCounter'
+// import { HookCounterObject } from './components/HookCounterObject'
+// import HookCounterArray from './components/HookCounterArray'
+// import HookCounterOne from './components/HookCounterOne'
 // import HookMouse from './components/HookMouse'
-import MouseContainer from './components/MouseContainer'
-import IntervalHookCounter from './components/IntervalHookCounter'
-import CounterOne from './useReducerComponents/CounterOne'
-import CounterTwo from './useReducerComponents/CounterTwo'
-import CounterThree from './useReducerComponents/CounterThree'
+// import MouseContainer from './components/MouseContainer'
+// import IntervalHookCounter from './components/IntervalHookCounter'
+// import CounterOne from './useReducerComponents/CounterOne'
+// import CounterTwo from './useReducerComponents/CounterTwo'
+// import CounterThree from './useReducerComponents/CounterThree'
 
 const App = () => {
   return (
@@ -33,7 +34,9 @@ const App = () => {
 
       {/* <CounterOne /> */}
       {/* <CounterTwo /> */}
-      <CounterThree />
+      {/* <CounterThree /> */}
+
+      <DataFetchingOne />
     </>
 
   )
