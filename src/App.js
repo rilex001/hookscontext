@@ -1,4 +1,5 @@
 import React from 'react'
+import HookTimer from './useRef/HookTimer'
 // import DataFetchingOne from './useReducerFetching/DataFetchingOne'
 // import DataFetchingTwo from './useReducerFetching/DataFetchingTwo'
 // import DataFetching from './components/DataFetching'
@@ -12,7 +13,8 @@ import React from 'react'
 // import CounterOne from './useReducerComponents/CounterOne'
 // import CounterTwo from './useReducerComponents/CounterTwo'
 // import CounterThree from './useReducerComponents/CounterThree'
-import Counter from './MEMO/Counter'
+// import Counter from './MEMO/Counter'
+// import FocusInput from './useRef/FocusInput'
 const App = () => {
   return (
     <>
@@ -40,7 +42,10 @@ const App = () => {
       {/* <DataFetchingOne /> */}
       {/* <DataFetchingTwo /> */}
 
-      <Counter />
+      {/* <Counter /> */}
+      {/* <FocusInput ></FocusInput> */}
+
+      <HookTimer />
     </>
 
 
