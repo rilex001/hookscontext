@@ -1,6 +1,6 @@
 import React from 'react'
 // import DataFetchingOne from './useReducerFetching/DataFetchingOne'
-import DataFetchingTwo from './useReducerFetching/DataFetchingTwo'
+// import DataFetchingTwo from './useReducerFetching/DataFetchingTwo'
 // import DataFetching from './components/DataFetching'
 // import { HookCounter } from './components/HookCounter'
 // import { HookCounterObject } from './components/HookCounterObject'
@@ -12,7 +12,7 @@ import DataFetchingTwo from './useReducerFetching/DataFetchingTwo'
 // import CounterOne from './useReducerComponents/CounterOne'
 // import CounterTwo from './useReducerComponents/CounterTwo'
 // import CounterThree from './useReducerComponents/CounterThree'
-
+import Counter from './MEMO/Counter'
 const App = () => {
   return (
     <>
@@ -38,8 +38,11 @@ const App = () => {
       {/* <CounterThree /> */}
 
       {/* <DataFetchingOne /> */}
-      <DataFetchingTwo />
+      {/* <DataFetchingTwo /> */}
+
+      <Counter />
     </>
+
 
   )
 }
