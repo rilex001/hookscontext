@@ -1,5 +1,10 @@
 import React from 'react'
-import HookTimer from './useRef/HookTimer'
+// import HookTimer from './useRef/HookTimer'
+// import DocTitleOne from './CustomHooks/DocTitleOne'
+// import DocTitleTwo from './CustomHooks/DocTitleTwo'
+// import CounterOne from './CustomHooks/CounterOne'
+// import CounterTwo from './CustomHooks/CounterTwo'
+import UserForm from './CustomHooks/UserForm'
 // import DataFetchingOne from './useReducerFetching/DataFetchingOne'
 // import DataFetchingTwo from './useReducerFetching/DataFetchingTwo'
 // import DataFetching from './components/DataFetching'
@@ -45,7 +50,13 @@ const App = () => {
       {/* <Counter /> */}
       {/* <FocusInput ></FocusInput> */}
 
-      <HookTimer />
+      {/* <HookTimer /> */}
+      {/* <DocTitleOne />
+      <DocTitleTwo /> */}
+
+      {/* <CounterOne />
+      <CounterTwo /> */}
+     <UserForm />
     </>
 
 
